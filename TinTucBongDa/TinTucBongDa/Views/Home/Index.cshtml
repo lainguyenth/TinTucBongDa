@@ -1,0 +1,493 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BootMagz : Magazine Style Theme built with Bootstrap</title>
+
+    <link href="~/Asset/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Asset/css/bootmagz_main.css" rel="stylesheet" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <!-- Facebook Social Plugin-->
+    <div id="fb-root"></div>
+    <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=231423830293736";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Facebook-->
+    <div class="container main">
+        <!-- Start Header-->
+        <div class="row">
+            <div class="top-menu ">
+
+                <div class="span6">
+                    <ul class="nav nav-pills pull-left">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page.html">Page</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="galleries.html">Galleries</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="span6 socmed-box">
+                    <ul class="social_media pull-right">
+                        <li><a href="#" class="twitter" title="Twitter"></a></li>
+                        <li><a href="#" class="facebook" title="Facebook"></a></li>
+                        <li><a href="#" class="gplus" title="Google Plus"></a></li>
+                        <li><a href="#" class="rss" title="RSS"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12 header">
+                <div class="span4 logo">
+                    <a href="index.html">
+                        <h1 class="logo-title">BootMagz</h1>
+                    </a>
+                    <span class="slogan">Bootstrap Magazine Style Theme</span>
+                </div>
+                <div class="span8 ads-top pull-right">
+                    <a href="#">
+                        <img alt="" src="http://placehold.it/468x60" class="pull-right" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br />
+        <!-- End Header-->
+        <!-- Start Main Navigation -->
+        <div class="row">
+            <div class="span12">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <ul class="nav">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="category.html">World</a></li>
+                                <li><a href="category.html">Technology</a></li>
+                                <li><a href="category.html">Sports</a></li>
+                                <li><a href="category.html">Politics</a></li>
+                                <li><a href="category.html">Opinion</a></li>
+                                <li><a href="category.html">Health</a></li>
+                                <li><a href="category.html">Business</a></li>
+                                <li><a href="category.html">Movies</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Drop Menu
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Menu 1</a></li>
+                                        <li class="divider">&nbsp;</li>
+                                        <li><a href="#">Menu 2</a></li>
+                                        <li class="divider">&nbsp;</li>
+                                        <li><a href="#">Menu 3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Navigation -->
+        <div class="row">
+            <!-- Start Main Content -->
+            <div class="span8">
+                <div class="row">
+                    <div class="span8">
+                        <div id="myCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img alt="" src="~/Asset/img/slider-1.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>First Thumbnail label</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="" src="~/Asset/img/slider-2.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>Second Thumbnail label</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="" src="~/Asset/img/slider-3.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>Third Thumbnail label</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="span8">
+                        <div class="row">
+                            <div class="span4 left-content">
+                                <div class="widget-title">
+                                    <h3>Politics</h3>
+                                </div>
+                                <div class="span4 featured-news">
+                                    <img alt="" src="~/Asset/img/politics.jpg" />
+                                    <a href="single.html"><h4>Up nominated one of the best movies to be created by disney</h4></a>
+                                    <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    <p>Maecenas mattis, tortor ut posuere aliquam, quam enim accumsan purus, auctor placerat orci velit vitae massa. Vivamus non iaculis</p>
+
+                                </div>
+                                <div class="span4 recent-news">
+                                    <div class="item-news">
+                                        <a href="single.html"><img alt="" src="~/Asset/img/hillary_clinton.jpg" /></a>
+                                        <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                        <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    </div>
+                                    <div class="item-news">
+                                        <a href="single.html"><img alt="" src="~/Asset/img/hillary_clinton.jpg" /></a>
+                                        <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                        <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    </div>
+                                    <div class="item-news">
+                                        <a href="single.html"><img alt="" src="~/Asset/img/hillary_clinton.jpg" /></a>
+                                        <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                        <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="span4 right-content">
+                                <div class="widget-title">
+                                    <h3>Business</h3>
+                                </div>
+                                <div class="span4 featured-news">
+                                    <img alt="" src="~/Asset/img/business.jpg" />
+                                    <a href="single.html"><h4>Up nominated one of the best movies to be created by disney</h4></a>
+                                    <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+
+                                </div>
+                                <div class="span4 recent-news">
+                                    <div class="item-news">
+                                        <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                        <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                        <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    </div>
+                                    <div class="item-news">
+                                        <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                        <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                        <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    </div>
+                                    <div class="item-news">
+                                        <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                        <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                        <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="span8">
+                                <div class="widget-title">
+                                    <h3>Sports</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="span4 left-content big-image-content">
+                                        <img src="~/Asset/img/370x255-1.jpg" />
+                                        <div class="inner-news-title fixed">
+                                            <h2><a href="single.html">Sport Title</a></h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit integer id nibh ac est.</p>
+                                        </div>
+                                    </div>
+                                    <div class="span4 recent-news right-content">
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/rooney.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/rooney.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/rooney.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Content -->
+            <!-- Start Right Sidebar -->
+            <div class="span4 right-sidebar">
+                <div class="row">
+                    <div class="span4 box-widget">
+                        <form class="form-search pull-right" >
+                        <input class="search-query search-form" placeholder="Type your keyword here !" type="text" />
+                        <button class="btn" type="submit">Go</button>
+                        </form>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="span4 tab-box box-widget">
+                        <div class="tabbable">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#1" data-toggle="tab"><i class="icon-star"></i>&nbsp;Popular</a></li>
+                                <li><a href="#2" data-toggle="tab"><i class="icon-comment"></i>&nbsp;Comments</a></li>
+                                <li><a href="#3" data-toggle="tab"><i class="icon-tags"></i>&nbsp;Tags</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="1">
+                                    <div class="popular">
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4>Toy Story 3 One of the best movies (Video)</h4></a>
+                                            <span class="date">Posted on July 02, 2011 | 0 comments</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="2">
+                                    <div class="comments">
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4><i>Admin :Toy Story 3 One of the best movies (Video)</i></h4></a>
+                                            <span class="date">Posted on July 02, 2011 07:15 AM</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4><i>Michael :Toy Story 3 One of the best movies (Video)</i></h4></a>
+                                            <span class="date">Posted on July 02, 2011 20:30 PM</span>
+                                        </div>
+                                        <div class="item-news">
+                                            <a href="single.html"><img alt="" src="~/Asset/img/80x60-1.jpg" /></a>
+                                            <a href="single.html"><h4><i>John : Toy Story 3 One of the best movies (Video)</i></h4></a>
+                                            <span class="date">Posted on July 02, 2011 11:45 am</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="3">
+                                    <ul class="tags">
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Sport</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Politics</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Obama</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Soccer</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Social Media</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Economics</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Musics</a></li>
+                                        <li><a class="btn" href="#"><i class="icon-tag"></i>Hollywood Artist</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="span4 box-widget">
+                        <div class="widget-title">
+                            <h3>Latest Photos</h3>
+                        </div>
+                        <div class="span4 box-widget">
+                            <ul class="thumbnails latest-photos ">
+                                <li class="span1 ">
+                                    <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                                </li>
+                                <li class="span1 ">
+                                    <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                                </li>
+                                <li class="span1 ">
+                                    <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                                </li>
+                                <li class="span1 ">
+                                    <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                                </li>
+                                <li class="span1 ">
+                                    <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                                </li>
+                                <li class="span1 ">
+                                    <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="span4">
+                        <div class="span2 sidebar-left">
+                            <div class="widget-title">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="nav">
+                                <li><a href="blog.html">Category Item</a></li>
+                                <li><a href="blog.html">Category Item</a></li>
+                                <li><a href="blog.html">Category Item</a></li>
+                            </ul>
+                        </div>
+                        <div class="span2 sidebar-right">
+                            <div class="widget-title">
+                                <h3>Archives</h3>
+                            </div>
+                            <ul class="nav">
+                                <li><a href="blog.html">January 2012 <span class="post-count">(34)</span></a></li>
+                                <li><a href="blog.html">February 2012 <span class="post-count">(10)</span></a></li>
+                                <li><a href="blog.html">March 2012 <span class="post-count">(7)</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="span4 box-widget">
+                        <div class="widget-title">
+                            <h3>Find us on Facebook</h3>
+                        </div>
+                        <div class="span4 fb-like-box">
+                            <div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="280" data-height="250" data-show-faces="true" data-stream="false" data-header="true"></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <!-- End Right Sidebar -->
+        </div>
+        <footer id="footer">
+            <div class="row">
+                <div class="span3 about">
+                    <h4>About Us</h4><br />
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                </div>
+                <div class="span3 latest-tweets">
+                    <h4>Latest Tweets</h4>
+                    <br />
+                    <div class="item-tweet">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#">http://t.co/xie8fDjd</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br />
+                        <span class="tweet-date">about 7 hours ago</span>
+                    </div>
+                    <div class="item-tweet">
+                        Security Release available for download now - <a href="#">http://t.co/xie8fDjd</a>
+                        <br />
+                        <span class="tweet-date">about 7 hours ago</span>
+                    </div>
+                    <div class="item-tweet">
+                        Lorem ipsum dolor sit amet, <a href="#">http://t.co/xie8fDjd</a> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br />
+                        <span class="tweet-date">about 7 hours ago</span>
+                    </div>
+                </div>
+                <div class="span3 footer-photos">
+                    <h4>Random Photos</h4>
+                    <br />
+                    <ul class="thumbnails">
+                        <li class="span1 ">
+                            <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                        </li>
+                        <li class="span1 ">
+                            <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                        </li>
+                        <li class="span1 ">
+                            <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                        </li>
+                        <li class="span1 ">
+                            <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                        </li>
+                        <li class="span1 ">
+                            <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                        </li>
+                        <li class="span1 ">
+                            <a href="galleries.html"><img alt="" src="~/Asset/img/70x70-1.jpg" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span3 contact">
+                    <h4>Contact Info</h4>
+                    <br />
+                    <h1>BootMagz</h1>
+                    <p>
+                        123 Make Believe Drive<br />
+                        Some City, P.O 54990, Country<br />
+                        T: +00 1234 5678
+                    </p>
+                    <iframe width="220" height="170" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=London@51.508129,-0.128005&ie=UTF8&z=12&t=m&iwloc=near&output=embed"></iframe><br />
+                </div>
+
+                <div class="row">
+                    <div class="span12">
+                        <div class="copyright-box pull-right">
+                            <h5 class="copyright">&COPY; 2012 BootMagz  All right are reserved</h5>
+                            <p class="powered-by">Powered by : <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, developed by <a href="http://gie-art.com">Gie-Art</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="~/Asset/js/jquery-1.7.2.min.js"></script>
+    <script src="~/Asset/js/bootstrap.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function(){
+                $('.carousel').carousel({
+                    interval: 2000
+                })
+            });
+    </script>
+</body>
+</html>
+

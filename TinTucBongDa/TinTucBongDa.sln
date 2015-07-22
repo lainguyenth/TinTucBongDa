@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinTucBongDa", "TinTucBongDa\TinTucBongDa.csproj", "{924CD465-C7E9-40C5-B5E4-3AE74CF2F06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinTucBongDa.Tests", "TinTucBongDa.Tests\TinTucBongDa.Tests.csproj", "{450811C7-226B-49E9-93C8-E3C2982D63BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924CD465-C7E9-40C5-B5E4-3AE74CF2F06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924CD465-C7E9-40C5-B5E4-3AE74CF2F06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924CD465-C7E9-40C5-B5E4-3AE74CF2F06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924CD465-C7E9-40C5-B5E4-3AE74CF2F06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450811C7-226B-49E9-93C8-E3C2982D63BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450811C7-226B-49E9-93C8-E3C2982D63BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450811C7-226B-49E9-93C8-E3C2982D63BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450811C7-226B-49E9-93C8-E3C2982D63BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
